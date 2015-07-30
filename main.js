@@ -8,7 +8,7 @@ $(document).on('ready', function() {
   });
 
   $(document).on("click", '.btn-danger', function(){
-    $(this).parent().parent().remove();
+    $(this).closest('li').remove();
   }
     );
 
